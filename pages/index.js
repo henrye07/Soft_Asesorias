@@ -35,20 +35,14 @@ export default function Home() {
         </section>
       </header>
       <section id="inicio" className="home">
-        <article
-          className="hero-image"
-        >
-          <aside
-            className="hero-image-opacity"
-          >
+        <article className="hero-image">
+          <aside className="hero-image-opacity">
             <div className="hero-image-content">
-              <h2
-                className="hero-image-title"
-              >
+              <h2 className="hero-image-title">
                 Bienvenid@s
                 <br />a Soft Asesorias
               </h2>
-              <a href="#contacto" className="btn">
+              <a href="https://wa.me/573008245442?text=Hola%20buen%20día,%20necesito%20apoyo%20academico" className="btn">
                 CONTÁCTAME
               </a>
             </div>
@@ -57,7 +51,9 @@ export default function Home() {
       </section>
       <section id="servicios" className="services section bg-gray-light">
         <div className="container full-lg-screen">
-          <h2 className="section-title">Carreras que dominamos en nuestra <b>Start-Up</b></h2>
+          <h2 className="section-title">
+            Carreras que dominamos en nuestra <b>Start-Up</b>
+          </h2>
           <article className="service-card">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -156,7 +152,9 @@ export default function Home() {
               </svg>
               <h5>TELÉFONO</h5>
               <small>
-                <a href="https://wa.me/573008245442?text=Hola%20buen%20día,%20necesito%20apoyo%20academico">Te estamos esperando</a>
+                <a href="https://wa.me/573008245442?text=Hola%20buen%20día,%20necesito%20apoyo%20academico">
+                  Te estamos esperando
+                </a>
               </small>
             </aside>
             <aside className="contact-card box-shadow-1">
@@ -174,7 +172,9 @@ export default function Home() {
               </svg>
               <h5>EMAIL</h5>
               <small>
-                <a href="mailto:softasesorias@gmail.com">softasesorias@gmail.com</a>
+                <a href="mailto:softasesorias@gmail.com">
+                  softasesorias@gmail.com
+                </a>
               </small>
             </aside>
           </article>
